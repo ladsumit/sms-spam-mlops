@@ -1,0 +1,5 @@
+name: sms_spam_quickstart
+
+entry_points:
+  train:
+    command: "pip install -r requirements.txt && python train_sms.py"

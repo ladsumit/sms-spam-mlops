@@ -1,0 +1,25 @@
+# virtualenvs & pyenv
+.serve-venv/
+.venv/
+env/
+.python-version
+
+# MLflow artifacts & local UI
+mlruns/
+mlartifacts/
+mlflow_ui.log
+
+# OS / Python noise
+__pycache__/
+*.pyc
+.DS_Store
+.ipynb_checkpoints/
+.pytest_cache/
+
+# app logs & env
+*.log
+.env
+
+# data (keep structure, ignore raw files)
+data/raw/*
+!data/.gitkeep
